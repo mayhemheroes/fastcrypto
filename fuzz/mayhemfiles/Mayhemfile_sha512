@@ -1,0 +1,7 @@
+project: fastcrypto
+target: sha512
+duration: 90
+
+cmds:
+    - cmd: /sha512
+
