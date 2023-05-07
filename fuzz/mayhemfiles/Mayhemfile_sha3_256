@@ -1,0 +1,7 @@
+project: fastcrypto
+target: sha3_256
+duration: 90
+
+cmds:
+    - cmd: /sha3_256
+
