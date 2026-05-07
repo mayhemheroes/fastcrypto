@@ -12,6 +12,7 @@ ADD . /fastcrypto/
 
 WORKDIR /fastcrypto/fuzz/
 
+RUN cargo +nightly update -p proc-macro2
 RUN cargo +nightly fuzz build
 
 FROM --platform=linux/amd64 rustlang/rust:nightly
